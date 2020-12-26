@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  <body>
+  	<div id="image">
+        <img src="Pic1.jpg" width="200px" height="200px"><br>
+        Hii It's Me...
+    </div>
+    <div>
+      <button onclick="hide()">Remove</button>
+    </div>
+    <script type="text/javascript">
+      var a;
+      function hide()
+      {
+        if(a==1){
+          document.getElementById("image").style.display="inline";
+          return a=0;
+        }
+        else{
+          document.getElementById("image").style.display="none";
+          return a=1;
+        }
+      }
+    </script>
+  </body>
+</html>
